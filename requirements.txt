@@ -1,0 +1,4 @@
+scikit-learn==1.6.0
+pandas==2.2.3
+miceforest==6.0.3
+numpy==2.2.1
