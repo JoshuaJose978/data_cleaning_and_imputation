@@ -33,7 +33,7 @@ def generate_customer_data(
     )
     
     # Convert to DataFrame with initial numerical features
-    df = pd.DataFrame(X)
+    df = pd.DataFrame()  # Start with empty DataFrame instead of using X features
     
     # Generate age with realistic distribution (slightly right-skewed)
     age = np.random.normal(42, 15, n_samples)
@@ -139,8 +139,9 @@ def generate_customer_data(
     
     # Introduce missing patterns with realistic dependencies
     df = introduce_missing_patterns(df)
-    df.to_csv("synthetic_data.csv",index=False)
 
+    df.to_csv("data/synthetic_data.csv", index = False)
+    
     return df
 
 def introduce_missing_patterns(df: pd.DataFrame) -> pd.DataFrame:

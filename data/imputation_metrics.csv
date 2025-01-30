@@ -1,0 +1,55 @@
+Method,Metric,Value,Feature
+MICE (sklearn),ks_stat,0.0010660980810234541,income
+MICE (sklearn),mean_diff,0.0,income
+MICE (sklearn),std_diff,0.0,income
+MICE (sklearn),ks_stat,0.0,credit_score
+MICE (sklearn),mean_diff,0.0,credit_score
+MICE (sklearn),std_diff,0.0,credit_score
+MICE (sklearn),ks_stat,0.004098360655737705,years_employed
+MICE (sklearn),mean_diff,0.0,years_employed
+MICE (sklearn),std_diff,0.0,years_employed
+MICE (sklearn),ks_stat,0.0011248593925759281,account_balance
+MICE (sklearn),mean_diff,0.0,account_balance
+MICE (sklearn),std_diff,0.0,account_balance
+MICE (sklearn),ks_stat,0.0,num_credit_cards
+MICE (sklearn),mean_diff,0.0,num_credit_cards
+MICE (sklearn),std_diff,0.0,num_credit_cards
+MICE (sklearn),ks_stat,0.007142857142857143,debt_ratio
+MICE (sklearn),mean_diff,0.0,debt_ratio
+MICE (sklearn),std_diff,0.0,debt_ratio
+MICE (forest),ks_stat,0.0010660980810234541,income
+MICE (forest),mean_diff,0.0,income
+MICE (forest),std_diff,0.0,income
+MICE (forest),ks_stat,0.0,credit_score
+MICE (forest),mean_diff,0.0,credit_score
+MICE (forest),std_diff,0.0,credit_score
+MICE (forest),ks_stat,0.004098360655737705,years_employed
+MICE (forest),mean_diff,0.0,years_employed
+MICE (forest),std_diff,0.0,years_employed
+MICE (forest),ks_stat,0.0011248593925759281,account_balance
+MICE (forest),mean_diff,0.0,account_balance
+MICE (forest),std_diff,0.0,account_balance
+MICE (forest),ks_stat,0.0,num_credit_cards
+MICE (forest),mean_diff,0.0,num_credit_cards
+MICE (forest),std_diff,0.0,num_credit_cards
+MICE (forest),ks_stat,0.007142857142857143,debt_ratio
+MICE (forest),mean_diff,0.0,debt_ratio
+MICE (forest),std_diff,0.0,debt_ratio
+KNN,ks_stat,0.0010660980810234541,income
+KNN,mean_diff,0.0,income
+KNN,std_diff,0.0,income
+KNN,ks_stat,0.0,credit_score
+KNN,mean_diff,0.0,credit_score
+KNN,std_diff,0.0,credit_score
+KNN,ks_stat,0.004098360655737705,years_employed
+KNN,mean_diff,0.0,years_employed
+KNN,std_diff,0.0,years_employed
+KNN,ks_stat,0.0011248593925759281,account_balance
+KNN,mean_diff,0.0,account_balance
+KNN,std_diff,0.0,account_balance
+KNN,ks_stat,0.0,num_credit_cards
+KNN,mean_diff,0.0,num_credit_cards
+KNN,std_diff,0.0,num_credit_cards
+KNN,ks_stat,0.007142857142857143,debt_ratio
+KNN,mean_diff,0.0,debt_ratio
+KNN,std_diff,0.0,debt_ratio
