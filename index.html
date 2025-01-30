@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imputation Methods Comparison</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Imputation Methods Comparison</h1>
+        
+        <div class="chart-grid">
+            <!-- Mean Difference Chart -->
+            <div class="chart-card">
+                <h2>Mean Difference by Feature</h2>
+                <div class="chart-container">
+                    <canvas id="meanDiffChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Standard Deviation Difference Chart -->
+            <div class="chart-card">
+                <h2>Standard Deviation Difference by Feature</h2>
+                <div class="chart-container">
+                    <canvas id="stdDiffChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Distribution Similarity Chart -->
+            <div class="chart-card">
+                <h2>Distribution Similarity (KS Statistic)</h2>
+                <div class="chart-container">
+                    <canvas id="distributionChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="interpretation-card">
+            <h2>How to Interpret These Results</h2>
+            <div class="interpretation-content">
+                <h3>Mean and Standard Deviation Differences:</h3>
+                <p>These metrics show how well each method preserves the statistical properties of the original data. Values closer to 0 indicate better performance.</p>
+                
+                <h3>Distribution Similarity:</h3>
+                <p>The KS statistic measures the maximum difference between the original and imputed distributions. Lower values (closer to 0) indicate better preservation of the original distribution.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
