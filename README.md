@@ -2,7 +2,7 @@
 
 This repository contains a comprehensive pipeline for generating synthetic customer data, performing missing data imputation using multiple methods, and evaluating imputation performance through a interactive dashboard.
 
-![Alt text](docs\assets\demos\ImputationMethodsComparison.gif "Imputation Metrics dashboard")
+![Imputation Metrics dashboard](docs/assets/demos/ImputationMethodsComparison.gif)
 
 
 ## Table of Contents
@@ -54,16 +54,16 @@ The setup script will:
 - Create a Python virtual environment
 - Install required dependencies
 
-![Alt text](docs\assets\screenshots\setup_1.PNG "Virt Env Setup and installation")
+![Virtual Environment Setup](docs/assets/screenshots/setup_1.PNG)
 
 - Generate synthetic data
 - Run imputation pipeline
 
-![Alt text](docs\assets\screenshots\setup_2.PNG "Virt Env Setup and installation")
+![Installation Steps](docs/assets/screenshots/setup_2.PNG)
 
 - Start the visualization dashboard
 
-![Alt text](docs\assets\screenshots\setup_3.PNG "Virt Env Setup and installation")
+![Dashboard Creation](docs/assets/screenshots/setup_3.PNG)
 
 
 If the Shell script can't be run, you can run `python main.py` and `python -m http.server 8000` and go to `http://localhost:8000` in your browser to see the imputation dashboard.
